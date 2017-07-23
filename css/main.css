@@ -1,0 +1,91 @@
+html, body {
+  height: 100%; }
+
+nav {
+  height: 50px;
+  position: fixed; }
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+  min-height: 75px;
+  background: transparent !important;
+  border-radius: 0px; }
+
+.centered {
+  text-align: center; }
+
+.navbar-brand {
+  margin-top: 0px; }
+
+.button-link {
+  width: 150px;
+  text-align: center;
+  border-radius: 200px;
+  border: 1px solid #D0D0D0;
+  height: 35px;
+  line-height: 35px;
+  text-decoration: none;
+  margin-top: 28px;
+  color: #fff !important;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .button-link:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: #fff !important;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1; }
+
+.logo {
+  width: auto;
+  height: 110px;
+  margin-top: -15px !important; }
+
+.wrapper {
+  text-align: center; }
+
+.custom-navbar ul li .navbar-link {
+  color: #fff !important;
+  text-transform: uppercase;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px; }
+  .custom-navbar ul li .navbar-link:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    color: #fff !important;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1; }
+
+.navbar-fixed-top {
+  border-width: 0px 0px 0px; }
+
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/header.jpg) no-repeat center center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.sect {
+  height: 100%;
+  background: url(../img/header.jpg);
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
