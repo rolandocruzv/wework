@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,oCAAoC;EAElC,0BAAW;IACV,MAAM,EAAE,QAAQ;EAEhB,oCAAM;IACL,UAAU,EAAE,eAAe;IAC3B,aAAa,EAAE,cAAc;EAC/B,+BAAgB;IACf,UAAU,EAAE,eAAe",
+"mappings": "AAAA,oCAAoC;EAElC,0BAAW;IACV,MAAM,EAAE,QAAQ;EAEhB,oCAAM;IACL,UAAU,EAAE,eAAe;IAC3B,aAAa,EAAE,cAAc;EAC/B,+BAAgB;IACf,UAAU,EAAE,eAAe;;EAC7B,SAAS;IACR,UAAU,EAAE,IAAI",
 "sources": ["responsive.sass"],
 "names": [],
 "file": "responsive.css"

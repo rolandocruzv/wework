@@ -2,9 +2,12 @@
   .custom-navbar .brand-logo {
     margin: 0px auto; }
   .custom-navbar .navbar-header button {
-    margin-top: 16px !important;
+    margin-top: 28px !important;
     margin-bottom: 0px !important; }
   .custom-navbar .navbar-collapse {
-    margin-top: 22px !important; } }
+    margin-top: 22px !important; }
+
+  .centered {
+    text-align: left; } }
 
 /*# sourceMappingURL=responsive.css.map */
