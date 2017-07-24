@@ -1,3 +1,6 @@
+* {
+  margin: 0; }
+
 html, body {
   height: 100%; }
 
@@ -5,20 +8,35 @@ nav {
   height: 50px;
   position: fixed; }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px; }
+
+h1 {
+  font-weight: 700;
+  margin-top: 170px;
+  margin-bottom: 0px;
+  font-size: 80px;
+  color: #fff; }
+
+p {
+  color: #fff; }
+
 .centered {
+  text-align: center; }
+
+.centered-text {
   text-align: center; }
 
 .button-link {
   width: 150px;
   text-align: center;
-  border-radius: 200px;
+  border-radius: 25px;
   border: 1px solid #D0D0D0;
   height: 35px;
   line-height: 35px;
   text-decoration: none;
   margin-top: 10px;
-  color: #fff !important;
-  border-radius: 25px;
+  color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -30,6 +48,19 @@ nav {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1; }
+
+.btn-success {
+  background-color: #28bf55;
+  border-radius: 25px;
+  width: 180px;
+  height: 50px;
+  line-height: 36px;
+  font-size: 20px; }
+
+.btn-success,
+.btn-sucess:hover,
+.btn-sucess:active {
+  background: #54c37f; }
 
 .logo {
   width: auto;
@@ -86,6 +117,7 @@ nav {
 .sect {
   height: 100%;
   background: url(../img/header.jpg);
-  background-size: cover; }
+  background-size: cover;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
