@@ -38,21 +38,11 @@ header .header-content .header-content-inner h1 {
 
 header .header-content .header-content-inner hr {
   margin: 30px auto; }
-
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px; }
-
-.section-services {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
 
 .section-love-help {
   height: 100%;
@@ -61,7 +51,7 @@ header .header-content .header-content-inner p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   margin: 0;
   padding: 0;
   background: url(../img/happy-black-man.jpg);
@@ -70,10 +60,17 @@ header .header-content .header-content-inner p {
 
 .section-love-help .container .row h2 {
   opacity: 0.7; }
+.section-love-help .container .row div {
+  margin-top: 20px; }
 
-.section-love-help .container .row h2, .section-love-help .container .row h5 {
+.section-love-help .container .row h2 {
+  font-size: 80px; }
+.section-love-help .container .row h5 {
+  font-size: 20px; }
+.section-love-help .container .row p {
   text-align: left;
-  margin-top: -13px; }
+  margin-top: 20px;
+  font-size: 20px; }
 
 section .section-love-help .container .row img {
   display: flex;
@@ -87,6 +84,13 @@ table, th, td {
   white-space: nowrap;
   width: 1px; }
 
+.section-services {
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.contenedor {
+  text-align: center;
+  margin: auto; }
+
 .section-services .container .row {
   display: flex;
   flex-direction: row;
@@ -94,8 +98,18 @@ table, th, td {
   justify-content: center;
   align-items: center;
   text-align: center; }
+  .section-services .container .row .box {
+    width: 160px;
+    background: white;
+    height: 300px;
+    margin-top: 40px;
+    -webkit-box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75); }
 
-section .container .row h2, h5 {
+section .container .row h2 {
+  opacity: 0.7; }
+section .container .row h2, section .container .row h5, section .container .row p {
   color: black; }
 
 section {
@@ -105,11 +119,6 @@ section .services {
   padding: 100px 0;
   height: 70%;
   background-color: rgba(0, 0, 0, 0.2); }
-
-section .love {
-  padding: 100px 0;
-  height: 100% !important;
-  background: #ccc; }
 
 .centered {
   text-align: center; }
@@ -169,22 +178,24 @@ section .love {
 .wrapper {
   text-align: center; }
 
-.custom-navbar ul li .navbar-link {
-  color: #fff !important;
-  text-transform: uppercase;
-  border-radius: 25px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  margin-top: 20px; }
-  .custom-navbar ul li .navbar-link:hover {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+.custom-navbar {
+  background: transparent !important; }
+  .custom-navbar ul li .navbar-link {
     color: #fff !important;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    opacity: 1; }
+    text-transform: uppercase;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px; }
+    .custom-navbar ul li .navbar-link:hover {
+      background-color: rgba(0, 0, 0, 0.2) !important;
+      color: #fff !important;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1; }
 
 .navbar-fixed-top {
   border-width: 0px 0px 0px; }
@@ -195,6 +206,11 @@ section .love {
   min-height: 75px;
   background: transparent !important;
   border-radius: 0px; }
+
+.appear {
+  background: black;
+  opacity: 0.6;
+  transition: all 0.8s ease-out; }
 
 .navbar-brand {
   margin-top: 0px; }
@@ -248,15 +264,30 @@ section .love {
   align-items: center;
   text-align: center; }
 
-.box {
-  width: 160px;
-  background: white;
-  height: 300px;
-  margin-right: 20px;
-  margin-top: 40px;
-  -webkit-box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 4px 10px 19px -1px rgba(0, 0, 0, 0.75); }
+footer {
+  text-align: center;
+  color: #fff; }
+
+footer .container {
+  width: 100%; }
+  footer .container .row {
+    background: #323a45;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    footer .container .row img {
+      width: auto;
+      height: 110px; }
+
+footer .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
 
 .sect02 {
   height: 100%;

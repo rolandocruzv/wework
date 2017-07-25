@@ -22,6 +22,31 @@
 @media screen and (max-width: 729px) {
   header .header-content .header-content-inner h1 {
     font-size: 40px;
-    color: rgba(255, 255, 255, 0.5); } }
+    color: rgba(255, 255, 255, 0.5); }
+
+  .section-love-help .container .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .section-love-help .container .row h2 {
+      font-size: 60px; }
+    .section-love-help .container .row h5 {
+      font-size: 20px; }
+    .section-love-help .container .row p {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 20px;
+      display: flex; }
+    .section-love-help .container .row .contenedor {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center; } }
 
 /*# sourceMappingURL=responsive.css.map */
