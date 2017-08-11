@@ -219,7 +219,7 @@ aside {
     margin-bottom: 20px; }
   .main .options {
     padding: 30px;
-    width: 40%; }
+    width: 500px; }
   .main .options-final {
     margin-left: 70px; }
   .main ul {
@@ -720,7 +720,8 @@ footer {
 
 .center-element {
   display: inline-table;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .shadows-active {
   -webkit-box-shadow: 6px 10px 10px 0px rgba(0, 0, 0, 0.45);
@@ -734,7 +735,8 @@ footer {
 
 /*Seccion de Testimonials and Feedbacks */
 .section-technologies {
-  background: url(../img/line-background.png) no-repeat center center fixed; }
+  background: url(../img/line-background.png) no-repeat center center;
+  width: 100%; }
   .section-technologies .options {
     margin-right: 30px; }
   .section-technologies .section-heading {
@@ -747,7 +749,6 @@ footer {
   min-width: 350px !important;
   min-height: 150px !important;
   position: relative;
-  margin-right: 60px;
   margin-bottom: 30px;
   border-radius: 5px;
   /*background: url(http://lorempixel.com/500/300) */
